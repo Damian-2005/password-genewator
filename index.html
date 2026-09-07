@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main class="container">
+        <h1>Generate a <span>random password</span></h1>
+        <p>Never use an insecure password again (generate 10 characters password)</p>
+
+        <button class="generate" onclick="passwor(10)">Generate passwords</button>
+        <p>Or Enter Password Character Length:</p>
+        <div>
+            <input type="text" class="pass-length">
+            <button class="submit" onclick="alertLength()">submit</button>
+        </div>
+        <hr/>
+        <div class="output-box">
+            <div class="output1" id=""></div>
+            <div class="output2"></div>
+        </div>
+        <button class="copy" onclick="copy()">Click to Copy</button>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html> 
